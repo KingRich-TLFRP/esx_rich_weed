@@ -1,4 +1,5 @@
-**Showcase:** 
+**Showcase:** https://youtu.be/wfae_AQmLtY
+
 ## Description
 Simple ESX weed farming system
 
