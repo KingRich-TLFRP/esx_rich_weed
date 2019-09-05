@@ -5,6 +5,7 @@ Simple ESX weed farming system
 ## Requirements
 - ESX
 - p_notify
+- Native UI
 
 ## Installation
 - Step 1:
