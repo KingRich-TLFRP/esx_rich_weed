@@ -1,5 +1,3 @@
-**DOWNLOAD:** 
-
 **Showcase:** 
 ## Description
 Simple ESX weed farming system
