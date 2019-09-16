@@ -3,6 +3,9 @@
 ## Description
 Simple ESX weed farming system
 
+## Official DEV Discord
+- https://discord.gg/6AcaTvb
+
 ## Requirements
 - ESX
 - p_notify
