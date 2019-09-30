@@ -1,3 +1,5 @@
+USE `essentialmode`;
+
 CREATE TABLE weed (
 	ID int(10) NOT NULL AUTO_INCREMENT,
 	Spot int(10) NOT NULL,
@@ -10,3 +12,10 @@ CREATE TABLE weed (
 	QualityCounter int(10) NOT NULL,
 	PRIMARY KEY (ID)
 );
+
+INSERT INTO `items` (`name`, `label`, `limit`) VALUES
+	('cannabis', 'Cannabis seed', 10),
+	('marijuana', 'Marijuana', 60),
+	('acqua', 'Water For Plants', 5),
+	('fertilizzante', 'Fertilizzante', 5)
+;
