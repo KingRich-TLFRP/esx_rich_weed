@@ -21,12 +21,10 @@ local objecto2                  = {}
 local tempo                     = {}
 local set                       = false
 
-Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-	end
-end)
+
+ESX = nil
+
+ESX = exports['es_extended']:getSharedObject()
 
 AddEventHandler('weedz:hasEnteredMarker', function(zone)
         for i = 1, numberofplants, 1 do
